@@ -83,3 +83,12 @@ header {
     width: 110%;
 
 }
+
+.clearfix {
+    clear: both;
+}
+
+.content-block {
+    width: 992px;
+    margin: 0 auto;
+}
