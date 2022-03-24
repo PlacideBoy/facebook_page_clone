@@ -3,9 +3,7 @@
     margin: 0;
 }
 
-body {
 
-}
 
 header {
     height: 82px;
@@ -91,4 +89,78 @@ header {
 .content-block {
     width: 992px;
     margin: 0 auto;
+}
+
+.facebook-connect {
+    margin-top: 50px;
+}
+
+.facebook-connect  p {
+    color: #0e385f;
+    font-size: 25px;
+}
+
+.content-container {
+    background: linear-gradient(#fff, #d9ddeb);
+    height: 100vh;
+    width: 100vw;
+}
+
+.create-account h2 {
+    font-size: 40px;
+}
+
+.create-account .free {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.account input[type="text"]{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #bdc7d8;
+}
+
+.account input[type="password"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    }
+
+.account .mobile .account .password {
+    width: 84%;
+}
+
+.account label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.account a {
+    text-decoration: none;
+    color: #3677bc;
+}
+
+.account input[type="radio"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.account .by-clicking {
+    color: #77777a;
+}
+
+.account input[type="submit"] {
+    padding: 15px 22px;
+    background: linear-gradient(#95d67c, #65a953);
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
