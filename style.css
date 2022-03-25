@@ -82,22 +82,37 @@ header {
 
 }
 
-.clearfix {
-    clear: both;
-}
+
 
 .content-block {
     width: 992px;
-    margin: 0 auto;
+    margin: 0 0;
+    height: 100vh;
+}
+
+.facebook-connect img {
+    display: block;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100%;
+
 }
 
 .facebook-connect {
     margin-top: 50px;
 }
 
-.facebook-connect  p {
+#facebook-slogan {
+    width: 40%;
+    display: block;
     color: #0e385f;
     font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 5%;
+    font-weight: bold;
 }
 
 .content-container {
@@ -106,8 +121,11 @@ header {
     width: 100vw;
 }
 
-.create-account h2 {
-    font-size: 40px;
+#create-account {
+    display: block;
+    width: 80%;
+    margin-top: 0;
+    font-size: 3em;
 }
 
 .create-account .free {
